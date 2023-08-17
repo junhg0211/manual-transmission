@@ -91,7 +91,7 @@ class Car {
         // break
         this.rpf = lerp(0.1, this.rpf, lerp(this.breakAmount, this.rpf, lerp(connection, this.rpf, 0)));
         this.velocity = lerp(0.05, this.velocity,
-            lerp(this.breakAmount, this.velocity, Math.max(Math.min(this.velocity * 0.8, this.velocity - 1), 0)))
+            lerp(this.breakAmount, this.velocity, Math.max(Math.min(this.velocity * 0.8, this.velocity - 3), 0)))
 
         /// steering
         if (keys.indexOf('KeyA') !== -1) {
