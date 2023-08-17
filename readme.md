@@ -10,3 +10,4 @@
 * `KeyU`, `KeyM`, `KeyI`, `Comma`, `KeyO` - 각각 1단, 2단, 3단, 4단, 5단 변속기 설정
 * `KeyK` - 중립 변속기 설정
 * `Period` - 후진 변속기 설정
+* `KeyA`, `KeyD` - 조향
